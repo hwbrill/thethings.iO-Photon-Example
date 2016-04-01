@@ -18,7 +18,7 @@ Include de header for the MQTT library.
 ```
 #include "MQTT/MQTT.h"
 ```
-Declare and implement the callback in ordre to receive messages from thethings.io.
+Declare and implement the callback in order to receive messages from thethings.io.
 ```
 void callback(char* topic, byte* payload, unsigned int length) {
     // handle message arrived
