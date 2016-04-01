@@ -1,10 +1,14 @@
 # Photon Particle MQTT
 
 Photon particle example to connect to http://thethings.iO. 
-By using a button connected to the digital port D1, the particle sends a random value between 0 and 9 once the button is pressed. Here's the fritzing diagram of the connections:
-
+By using a button connected to the digital port D1, the particle sends a random value between 0 and 9 once the button is pressed. 
+Here's the fritzing diagram of the connections:
 ![alt tag] (http://blog.thethings.io/wp-content/uploads/2016/04/Photon-thethingsiO-2.png)
+
 ## Installation
+
+First navigate to particle build and create a new project.
+![alt tag] (http://blog.thethings.io/wp-content/uploads/2016/04/thethings-particle-ide.png)
 
 Clone this repository and copy all the code from the .ino file to the Particle IDE.
 
